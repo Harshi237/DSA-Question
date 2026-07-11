@@ -1,6 +1,6 @@
 class Solution {
     public boolean lemonadeChange(int[] bills) {
-        int[] coins = new int[3];
+        int[] coins = new int[2];
 
         for(int i=0; i<bills.length; i++){
             if(bills[i]==5){
@@ -12,7 +12,6 @@ class Solution {
                 else return false;
             }
             else{
-                coins[2]++;
                 if(coins[1]>=1 && coins[0]>=1){
                     coins[1]--;
                     coins[0]--;
