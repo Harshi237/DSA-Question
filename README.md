@@ -32,8 +32,21 @@
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Harshi237/DSA-Question/tree/master/0044-wildcard-matching) |
+| [0455-assign-cookies](https://github.com/Harshi237/DSA-Question/tree/master/0455-assign-cookies) |
 ## Recursion
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Harshi237/DSA-Question/tree/master/0044-wildcard-matching) |
+## Array
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/Harshi237/DSA-Question/tree/master/0455-assign-cookies) |
+## Two Pointers
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/Harshi237/DSA-Question/tree/master/0455-assign-cookies) |
+## Sorting
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/Harshi237/DSA-Question/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->
