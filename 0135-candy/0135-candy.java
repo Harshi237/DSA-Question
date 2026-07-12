@@ -5,7 +5,7 @@ class Solution {
         int up=0;
         int down = 0;
         int peak = 0;
-        int candy = 0;
+        int candy = 1;
 
         for(int i=1; i<n; i++){
             if(ratings[i]>ratings[i-1]){
@@ -28,6 +28,6 @@ class Solution {
             }
         }
         
-        return candy+1;
+        return candy;
     }
 }
