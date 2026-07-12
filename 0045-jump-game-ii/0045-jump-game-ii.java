@@ -1,25 +1,17 @@
 class Solution {
-    Integer[] dp ;
     public int jump(int[] nums) {
-        dp = new Integer[nums.length];
-        return solve(0, nums);
-    }
-
-    public int solve(int idx, int[] nums) {
-        if (idx >= nums.length - 1)
-            return 0;
-        
-        if(dp[idx]!=null) return dp[idx];
-
-        int minJump = Integer.MAX_VALUE;
-
-        for (int jump = 1; jump <= nums[idx]; jump++) {
-            int ans = solve(idx + jump, nums);
-            if (ans!=Integer.MAX_VALUE)
-                minJump = Math.min(minJump, ans);
+        int n = nums.length;
+        int[] dp = new int[nums.length];
+        Arrays.fill(dp, Integer.MAX_VALUE);
+        dp[n-1] = 0;
+        for(int i=n-2; i>=0; i--){
+            for(int jump = 1; jump<=nums[i] && i+jump<n ;jump++){
+                if(dp[i+jump]!=Integer.MAX_VALUE){
+                    dp[i] = Math.min(dp[i],dp[i+jump]+1);
+                }
+            }
         }
-        if(minJump==Integer.MAX_VALUE) return dp[idx]=Integer.MAX_VALUE;
-
-        return dp[idx] =  minJump + 1;
+        return dp[0];
     }
+
 }
