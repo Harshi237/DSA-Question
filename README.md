@@ -23,6 +23,7 @@
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Harshi237/DSA-Question/tree/master/0044-wildcard-matching) |
+| [0045-jump-game-ii](https://github.com/Harshi237/DSA-Question/tree/master/0045-jump-game-ii) |
 | [0115-distinct-subsequences](https://github.com/Harshi237/DSA-Question/tree/master/0115-distinct-subsequences) |
 | [0516-longest-palindromic-subsequence](https://github.com/Harshi237/DSA-Question/tree/master/0516-longest-palindromic-subsequence) |
 | [1092-shortest-common-supersequence](https://github.com/Harshi237/DSA-Question/tree/master/1092-shortest-common-supersequence) |
@@ -32,6 +33,7 @@
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Harshi237/DSA-Question/tree/master/0044-wildcard-matching) |
+| [0045-jump-game-ii](https://github.com/Harshi237/DSA-Question/tree/master/0045-jump-game-ii) |
 | [0134-gas-station](https://github.com/Harshi237/DSA-Question/tree/master/0134-gas-station) |
 | [0455-assign-cookies](https://github.com/Harshi237/DSA-Question/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/Harshi237/DSA-Question/tree/master/0860-lemonade-change) |
@@ -42,6 +44,7 @@
 ## Array
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/Harshi237/DSA-Question/tree/master/0045-jump-game-ii) |
 | [0134-gas-station](https://github.com/Harshi237/DSA-Question/tree/master/0134-gas-station) |
 | [0455-assign-cookies](https://github.com/Harshi237/DSA-Question/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/Harshi237/DSA-Question/tree/master/0860-lemonade-change) |
