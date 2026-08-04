@@ -1,21 +1,25 @@
 class Solution {
     public int minEatingSpeed(int[] piles, int h) {
-        int n = piles.length;
-        int l= 1;
-        int high = 0;
-        for(int i=0; i<n; i++){
-            high = Math.max(high, piles[i]);
+        int max = piles[0];
+        for(int pile:piles){
+            max = Math.max(max, pile);
         }
+        int low = 1; 
+        int high = max;
 
-        while(l<=high){
-            int mid = l+(high-l)/2;
+        while(low<=high){
+            int mid = low+(high-low)/2;
             long hours = 0;
-            for(int pile : piles){
-                hours += (pile+mid-1)/mid;
+
+            for(int pile: piles){
+                hours+=Math.ceil((double)pile/mid);
             }
-            if(hours<=h) high = mid-1;
-            else l=mid+1;
+            
+            if(hours<=h){
+                high = mid-1;
+            }
+            else low = mid+1;
         }
-        return l;
+        return low;
     }
-}
+} 
